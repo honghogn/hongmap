@@ -20,7 +20,27 @@ n++;
     }
     userFilter();
     console.log(newNumber1)
+    var newNumber2 = numbers.filter(number=>number<=0)
+    console.log(newNumber2)
+    console.log(newNumber1)
+    var newNumber3 = numbers.filter(number=>number%2==0)
+    console.log(newNumber3)
+    var snacks = ['바나나킥','새우깡','감자깡','오징어집','구운감자']
+function userLength (){
+for (var i=0; i<snacks.length;i++)
+if(snacks[i].length<=3)
+console.log(snacks[i]);
+}
+userLength();
     //var newNumber2 =numbers.filter()
+
+    var result1=snacks.filter(snack=>snack.length>3);
+    console.log(result1);
+    var result2=snacks.filter(snack=>snack.indexOf('깡')>-1);
+    console.log(result2);
+// 힘수로 변경
+
+
   </script>
 </body>
 </html>
